@@ -1,10 +1,12 @@
-function App() {
+import { paths } from "./constants/routes";
+import { RouterProvider } from "react-router-dom";
 
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <main className="flex justify-center w-screen h-screen bg-slate-800 pt-28">
+      <RouterProvider router={paths} />
+    </main>
+  );
 }
 
-export default App
+export default App;

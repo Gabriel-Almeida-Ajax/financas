@@ -1,8 +1,6 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listagem dos itens de despesas e receitas.
+    -   Listar os titulos, a data, e o valor.
+- Tela de manutenção e cadastro dos lançamentos, futuros e passados.
+    -   Receber o titulo, o valor, a data, e a descrição.
